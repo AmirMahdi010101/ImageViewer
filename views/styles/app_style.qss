@@ -1,0 +1,172 @@
+/* استایل‌های کلی برنامه */
+QMainWindow {
+    background-color: #f5f7fa;
+}
+
+QScrollArea {
+    background-color: #f5f7fa;
+    border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #c0c0c0;
+    min-height: 30px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #a0a0a0;
+}
+
+/* استایل فریم مدرن */
+.modern-frame {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+/* استایل کارت تصویر */
+.image-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.image-card QLabel {
+    color: #333333;
+    font-size: 11px;
+}
+
+.image-frame {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* استایل دکمه‌های مدرن */
+.modern-button {
+    background-color: #4a86e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.modern-button:hover {
+    background-color: #3a76d8;
+}
+
+.modern-button:pressed {
+    background-color: #2a66c8;
+}
+
+.modern-button:disabled {
+    background-color: #cccccc;
+    color: #888888;
+}
+
+/* استایل دکمه‌های ناوبری */
+.navigation-button {
+    background-color: #f0f0f0;
+    color: #333333;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navigation-button:hover {
+    background-color: #e0e0e0;
+}
+
+.navigation-button:pressed {
+    background-color: #d0d0d0;
+}
+
+.navigation-button:disabled {
+    background-color: #f5f5f5;
+    color: #aaaaaa;
+}
+
+/* استایل لیست فایل‌ها */
+QListWidget {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+}
+
+QListWidget::item {
+    height: 28px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 2px 0px;
+}
+
+QListWidget::item:selected {
+    background-color: #e6f0ff;
+    color: #2a66c8;
+}
+
+QListWidget::item:hover {
+    background-color: #f0f0f0;
+}
+
+/* استایل ورودی جستجو */
+.search-input {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+/* استایل فریم اطلاعات */
+.info-frame {
+    background-color: #e8f0fd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* استایل برچسب‌ها */
+QLabel {
+    color: #333333;
+}
+
+.title-label {
+    color: #2a66c8;
+}
+
+.subtitle-label {
+    color: #666666;
+}
+
+.bold-label {
+    font-weight: bold;
+    color: #333333;
+}
+
+/* استایل خط جداکننده */
+QFrame[frameShape="4"] {
+    background-color: #e0e0e0;
+}
+
+/* استایل نوار پیشرفت */
+QProgressBar {
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+QProgressBar::chunk {
+    background-color: #4a86e8;
+    border-radius: 3px;
+}
