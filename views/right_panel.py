@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import (QVBoxLayout, QHBoxLayout, QScrollArea, 
                            QWidget, QGridLayout, QFrame)
 from PyQt5.QtCore import Qt, pyqtSignal, QPropertyAnimation, QEasingCurve
-from PyQt5.QtGui import QGraphicsOpacityEffect
+from PyQt5.QtWidgets import QGraphicsOpacityEffect
 from typing import List, Dict
 from .components import ModernFrame, ImageCard, NavigationBar
 

@@ -6,7 +6,7 @@ from typing import List, Dict, Optional
 from PyQt5.QtCore import QThread, pyqtSignal
 
 
-class ZipProcessor(QThread):
+class ZipHandler(QThread):
     """کلاس پردازش فایل‌های ZIP و استخراج تصاویر"""
     
     # سیگنال‌ها

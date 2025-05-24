@@ -1,4 +1,4 @@
 from .image_model import ImageModel
-from .zip_processor import ZipProcessor
+from .zip_handler import ZipHandler
 
-__all__ = ['ImageModel', 'ZipProcessor']
+__all__ = ['ImageModel', 'ZipHandler']

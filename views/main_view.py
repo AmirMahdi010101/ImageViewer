@@ -10,8 +10,8 @@ from views.components.modern_frame import ModernFrame
 from views.components.modern_button import ModernButton
 from views.components.navigation_button import NavigationButton
 from views.components.image_card import ImageCard
-from views.panels.left_panel import LeftPanel
-from views.panels.right_panel import RightPanel
+from views.left_panel import LeftPanel
+from views.right_panel import RightPanel
 from controllers.application_controller import ApplicationController
 
 
